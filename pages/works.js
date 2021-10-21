@@ -15,7 +15,11 @@ const Works = () => {
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.1}>
-            <WorkGridItem id="work1" title="Work1" thumbnail={thumbnailWork1}>
+            <WorkGridItem
+              id="vue-pics"
+              title="Vue-Pics"
+              thumbnail={thumbnailWork1}
+            >
               The First App
             </WorkGridItem>
           </Section>
