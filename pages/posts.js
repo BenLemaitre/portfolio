@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
 // import images
-import appleDeviceImage from '../public/images/apple-device.jpg' 
+import appleDeviceImage from '../public/images/apple-device.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -13,9 +13,9 @@ const Posts = () => (
         Popular Posts
       </Heading>
       <Section delay={0.1}>
-        <SimpleGrid columns={[1,2,2]} gap={6}>
-          <GridItem title="My First Article" thumbnail={appleDeviceImage}/>
-          <GridItem title="My Second Article" thumbnail={appleDeviceImage}/>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem title="My First Article" thumbnail={appleDeviceImage} />
+          <GridItem title="My Second Article" thumbnail={appleDeviceImage} />
         </SimpleGrid>
       </Section>
     </Container>
@@ -23,4 +23,3 @@ const Posts = () => (
 )
 
 export default Posts
-

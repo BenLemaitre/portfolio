@@ -114,21 +114,33 @@ const Page = () => {
           <List>
             <ListItem>
               <Link href="https://github.com/BenLemaitre" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/>}>
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
                   @BenLemaitre
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
               <Link href="https://discord.gg/" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoDiscord}/>}>
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoDiscord} />}
+                >
                   @benlemaitre
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
               <Link href="https://linkedin.com" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin}/>}>
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
                   @BenjaminLemaitre
                 </Button>
               </Link>
