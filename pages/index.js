@@ -6,9 +6,13 @@ import {
   Image,
   Link,
   Button,
+  List,
+  ListItem,
+  Icon,
   useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import { IoLogoLinkedin, IoLogoGithub, IoLogoDiscord } from 'react-icons/io5'
 
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -102,6 +106,34 @@ const Page = () => {
             I &#9829;
           </Heading>
           <Paragraph>Blockchain Technologies, Video Games...</Paragraph>
+          <Section delay={0.4}>
+            <Heading as="h3" variant="section title">
+              On the web
+            </Heading>
+          </Section>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/BenLemaitre" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/>}>
+                  @BenLemaitre
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://discord.gg/" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoDiscord}/>}>
+                  @benlemaitre
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://linkedin.com" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin}/>}>
+                  @BenjaminLemaitre
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>
